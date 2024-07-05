@@ -1,0 +1,9 @@
+.rs{
+    color: brown;
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente um do lado do outro */ 
+}
+
+.container{
+    display: flex;
+}

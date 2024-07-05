@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>consumo de api multiplo</title>
+    <link rel="stylesheet" href="style.css">
+    <script> src="scripts.js"</script>
+</head>
+<style>
+    /* tira margen body */ 
+ body { 
+  text-align:left; 
+  margin: 0px; 
+  padding: 0px; 
+ 
+ } 
+   /* tira margen body */   
+   
+ 
+  /* conteiner faixa 1 acima (opcional) */ 
+  .titulo-container{ 
+    display: flex; 
+  justify-content: space-between; 
+  width: 100%; /* Ocupar toda a largura disponível */ 
+  width: 1808px; 
+height: 103px; 
+gap: 0px; 
+opacity: 0px; 
+background: rgba(12, 112, 242, 1); 
+  } 
+ 
+ 
+/* Estilos para outros elementos (opcional) */ 
+/* ... */  
+/* ... */  
+.t{ 
+  width: 683px; 
+height: 30px; 
+background-color: brown; 
+border: 1px solid black; 
+} 
+/* titolo do cep  ... */  
+.cepInput{ 
+  text-align:left; /* Alinha o texto para a direita */ 
+  direction: rtl; /* Se necessário, inverte a direção do texto (para idiomas que escrevem da direita para a esquerda) */ 
+} 
+/* titolo do cep  ... */  
+  
+
+</style>
+<body>
+  <!-- faixa 1  --> 
+<div class="titulo-container"> 
+  <h1 class="t1"> Weather </h1> 
+  <h1 class="t2">Endereços </h1> 
+  <h1 class="t3"> Previsão do tempo</h1> 
+</div> 
+<!-- faixa 1  --> 
+<!-- imagen  --> 
+<div class="titolo25"> 
+  <div class="texto">  
+    <h5>Descubra Mais com Precisão :<br> Previsões do Tempo e endereços <br>em tempo real.   </h5>  
+  </div>  
+  <div>  
+      <img src="image 1 (2).svg" class="img" alt="imagen de cima"> 
+  </div>  
+</div> 
+<!-- imagen  --> 
+ <!-- corpo inputs  --> 
+<section class="corpo"> 
+  <!-- corpo 2 inicio --> 
+  <section class="corpo2">
+<!-- corpo 2 inicio  --> 
+  
+  <label class="nomel" for="nome">Primeiro Nome:</label><br>  
+  <section class="in-put">
+    <input  type="text" id="nome" placeholder="Insira seu primeiro nome:" required ><br> 
+  </section>
+   
+ 
+  <label class="email" for="email">E-mail:</label><br>  
+    <section class="in-put">
+      <input type="email" id="email" placeholder="Insira seu e-mail" required  ><br>
+    </section>
+ 
+  <label class="cepTT" for="cepTT">Digite o CEP:</label><br>  
+  <section class="in-put">
+    <input type="text" id="cep" placeholder="Insira o CEP " required  ><br> 
+  </section>
+  
+  
+  <!-- latitude e longitude -->  
+  
+    <div class="titolo-latitude">  
+      <label class="inicio-latitude" id="latitude-inicio"   > Digite a latitude e longitude para saber a previsão:  </label>  
+   </div>  
+ 
+  <section class="lat-long">
+    <div class="tlongitude "style="display: flex;" >  
+    
+        <section class="longitude-margin">
+          <section class="lat-long-juntos">  <!-- latitude e longitude -->      
+            
+            <input type="text" class="latitude "text-align:left; placeholder="Latitude" id="latitude" readonly>  
+          </section> <!-- latitude e longitude -->
+           
+        </section>
+        <input class="longitude " type="text" id="longitude" readonly text-align:left;  placeholder="Longitude"   > 
+     
+      <section class="in-lat">
+        <section class="latitude-margin ">
+          
+        </section>
+        
+      </section>
+     
+
+    </div>  
+  </section>
+  
+ 
+  <!-- botao --> 
+
+    <button class="botao" onclick="buscarEnderecoPrevisao()">Acessar</button>
+    <!-- botao -->
+     <!-- corpo2 fim -->
+ </section> 
+ <!-- corpo2 fim -->
+  <section class="margen-imagen2">
+    <img class="imagen2" src="image 2 (3).svg" alt="Erro"> 
+  </section>
+  
+   <!-- botao -->
+<!-- in 1 e 2 ..................................................1--> 
+</section> 
+<!-- imagen 2 -->
+<section class="imagen2">
+ 
+</section>
+<!-- imagen 2 -->
+<section class="in">        
+<!-- buscacep  --> 
+ <section class="in">
+ 
+    <h1 class="buscacep" > Resultado da busca por CEP:  </h1>
+ 
+  
+ </section>
+<!-- buscacep  --> 
+
+
+<!-- div azul  -->
+<section class="azul">  
+  
+  <h2 class="a" >  Logradouro/nome </h2>
+  <h2 class="a"> Bairro/Distrito   </h2>
+ <h2 class="a"> Localidade/UF   </h2>  
+</section>
+<!-- div azul  -->
+<!-- <div endereço></div>  -->
+<section class="branca">
+  <div class="container">
+    
+    <div class="rs" id="endereco"   ></div>
+    <span class="bairro"></span> 
+      <span class="localidade"></span> 
+      <span class="uf"></span>
+      
+      <span class="nomeRua"></span>
+      <span class="nome"></span>
+</div>
+</section>
+<!-- <div endereço></div>  -->
+  <!-- abaixo deve ser subestituido ou modificado   --> 
+  
+ <!-- acima deve ser subestituido ou modificado   --> 
+  <!-- abaixo teste input latitude    --> 
+
+  <!-- titolo image 3  -->
+<section class="resultado " >  
+
+  <section class="titolo-previsao">
+    <h1 class="previsao-t">Previsão do tempo na região: </h1>
+    <img class="imagen3" src="image 3 (1).svg" alt="Erro"> 
+  </section>
+ 
+</section>
+
+
+<!--imagen 3 e titolo --> 
+
+
+<!-- <div id="previsao"></div>  -->
+<!--input previsao    -->
+<section class="pre-resultadopi">
+  <input  class="pre-resultado" type="text" id="previsao" readonly placeholder="Previsão de tempo de acordo com a região: 24° C  "   >
+</section>
+
+    <!--input previsao    -->
+<!-- fim --> 
+<div class="ffinal"> 
+  <h1 class="final"> 
+    Termos de Uso | Política de Privacidade 
+  </h1> 
+</div> 
+<!-- fim --> 
+    <script src="api.js"></script> 
+</body>
+<script>
+     
+</script>
+</html>

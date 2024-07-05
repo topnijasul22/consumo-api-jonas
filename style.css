@@ -1,0 +1,729 @@
+
+*{ 
+ 
+    padding: 0px; 
+    top: 102px; 
+    gap: 0px; 
+    border: 1px 0px 0px 0px; 
+    opacity: 0px; 
+    background: rgba(242, 242, 242, 1); 
+  
+     
+    /* 
+    titolo container   de cima  
+   
+   
+    */ 
+  } 
+   
+  /* 
+    titolo container   de cima  
+    
+    */ 
+  .t1{ 
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; /* Ocupar toda a largura disponível */ 
+    margin-left: 34px; 
+    padding: 0px;    /* move pra baixo a letra  */ 
+    color: rgba(255, 255, 255, 1); 
+    white-space: nowrap; 
+    background: rgba(12, 112, 242, 1); 
+    width: 800px; 
+  height: 71px; 
+  top: 2px; /*altura  */ 
+  left: 0px; 
+  gap: 0px; 
+  opacity: 0px; 
+  font-size: 45px ;  /*tamanho */ 
+  margin-left: 100px;  /*margin espaço inicial */ 
+   
+   
+   
+   
+  } 
+  .t2{ 
+    color: rgba(255, 255, 255, 1); 
+    background: rgba(12, 112, 242, 1); 
+    padding: left 0px; 
+    padding: 20px;    /* move pra baixo a letra  */ 
+     /* Estilos para t2 (opcional) */ 
+     margin-right: 0px; /* Adiciona de espaço à esquerda */ 
+     white-space: nowrap; 
+     margin-right: 0px; /* Adiciona 20px de espaço à direita */ 
+     width: 32px;/* Adiciona de espaço à esquerda */ 
+  height: 30px; 
+  top: 36px; 
+  left: 1133px; 
+  gap: 0px; 
+  opacity: 0px; 
+   
+  } 
+  .titulo-container { 
+     /* faixa */ 
+    /* Estilos do container (opcional) */ 
+    padding: left 5px; 
+    display: flex; /* Habilita Flexbox */ 
+    justify-content: space-around; /* Distribui espaço entre os elementos */ 
+    width: 1700px; 
+  height: 103px; 
+  gap: 0px; 
+  opacity: 0px; 
+  font-family: Inter; 
+  top: 1020px; /*altura tamanho da faixa */ 
+  white-space: nowrap; 
+   
+  } 
+   
+   
+   
+  .t3 { 
+    /* Estilos para t3 (opcional) */ 
+    color: rgba(255, 255, 255, 1); 
+    background: rgba(12, 112, 242, 1); 
+    padding: left 45px;  /* move pra baixo a letra  */ 
+     
+  height: 30px; 
+  top: 36px; 
+   
+  gap: 0px; 
+  opacity: 0px; 
+  color: rgba(255, 255, 255, 1); 
+  font-family: Inter; 
+  font-size: 25px; 
+  font-weight: 800; 
+  line-height: 30.26px; 
+  text-align: left; 
+  padding: 28px;    /* move pra baixo a letra  */ 
+    white-space: nowrap; 
+   
+  width: 229px; /* largura  */
+  height: 30px; 
+  top: 36px; 
+  left: 1310px; 
+  gap: 0px; 
+  opacity: 0px; 
+  font-family: Inter; 
+  font-size: 25px; 
+  font-weight: 800; 
+  line-height: 30.26px; 
+  text-align: left; 
+   
+   margin-right: 0px; /* Adiciona 20px de espaço à direita */ 
+   padding-left: 0px; /* Adiciona 20px de espaço à esquerda */ 
+   
+  } 
+   
+   
+  .titolo25 { 
+     
+     /* Centraliza os itens verticalmente */ 
+    padding: 3px; /* Espaçamento interno */ 
+    display: flex; /* Habilita Flexbox para a div */ 
+    justify-content: center; /* Centraliza os itens horizontalmente */ 
+    
+  } 
+   
+  .texto { 
+    /* Estilos para o texto */ 
+    margin-right: 0px; /* Adiciona margem direita ao texto */ 
+    width: 700px; /* joga o texto para direita */ 
+    height: 282px; 
+    top: 226px; 
+    left: 4px; 
+    gap: 0px; 
+    opacity: 0px; 
+     
+  gap: 0px; 
+  opacity: 0px; 
+  font-family: Inter; 
+  font-size: 50px; 
+  font-weight: 800; 
+  line-height: 60.51px; 
+  text-align: left; 
+  color: rgba(31, 31, 31, 1); 
+  margin-right: 2px; /* Adiciona 20px de espaço à direita */ 
+  margin-left: 2px;  
+   
+  } 
+   
+  .img { 
+    /* Estilos para a imagem */ 
+    max-width: 1190px; /* Largura máxima da imagem */ 
+    height: 2px; /* Mantém a proporção da imagem */ 
+    width: 355px; 
+    height: 197px; 
+    top: 177px; 
+    left: 1133px; 
+    gap: 0px; 
+    opacity: 0px; 
+        
+   
+  } 
+ /* CORPO  */ 
+ .corpo2{
+  background: rgba(255, 255, 255, 1); 
+    display: flex; /* Habilita Flexbox */ 
+    flex-direction: column; /* Arruma os itens verticalmente */ 
+     /* Distribui o espaço entre os itens */  
+   align-items:center;
+   width: 859px;
+  height: 930px;
+  top: 635px;
+  left: 395px;
+  gap: 0px;
+ }
+ .corpo{ 
+  padding: 3px; /* Espaçamento interno */
+  margin-top:  210px;/* ajusta o altura  imagen 3 */ 
+
+  width: 859px;
+  height: 930px;
+  top: 635px;
+  left: 395px;
+  gap: 0px;
+ 
+  opacity: 0px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+    /* largura */ 
+    height: 800px; /* altura */ 
+    top: 735px; 
+   margin-left: 270px; /* joga div corpo para os lado direito */ 
+   /* position: absolute;  Para usar top e left */ 
+ 
+   
+    background: rgba(255, 255, 255, 1); 
+    display: flex; /* Habilita Flexbox */ 
+    flex-direction: column; /* Arruma os itens verticalmente */ 
+     /* Distribui o espaço entre os itens */ 
+    
+   align-items:center;
+   
+  /* teste */ 
+  /* Adiciona uma margem superior */ 
+  gap: 1px; /* afasta um iten do outro  */ 
+    
+  } 
+
+ /* Define a largura dos titolo */ 
+ .lat-long-juntos{
+  width: 706px;
+  height: 56px;
+  display: flex;
+  margin-top: 0px;
+ margin-left: 0px;
+ background: rgba(255, 255, 255, 1);
+ }
+ .latitude-margin{
+  margin-top: 0px;
+ margin-left: 0px;
+ 
+ }
+ 
+ .latitude{
+  width: 296px;
+height: 56px;
+top: 1280px;
+left: 507px;
+gap: 0px;
+border-radius: 10px 10px 10px 10px;
+opacity: 0px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.2px;
+text-align: center;
+margin-top: 0px;
+ margin-left: 62px;
+
+ 
+ }
+ 
+ .in-long{
+ margin-left: 0px;
+  
+ 
+ }
+ .in-put{
+  margin-left: 0px;
+ 
+  display: flex;
+  padding: 0px;
+  background-color: #FFFFFF;
+
+ }
+ .longitude-margin{
+  width: 296px;
+height: 56px;
+top: 1280px;
+left: 507px;
+gap: 0px;
+border-radius: 0px 0px 0px 0px;
+opacity: 0px;
+background-color: #FFFFFF;
+
+  margin-left: 0px;
+margin-top: 20px;
+ }
+ .longitude{
+  width: 296px;
+  height: 56px;
+  top: 1280px;
+  left: 507px;
+  gap: 0px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.2px;
+text-align: center;
+padding-left: 0px;
+margin-left: 110px;
+margin-top: 21px;
+
+ }
+ 
+
+ .tlongitude{
+padding: 0px;
+  gap: 1px;
+  background-color: #FFFFFF;
+ margin-top: 0px;
+  
+ }
+ .inicio-latitude{
+  color: #000000; 
+  background-color: #FFFFFF;
+ }
+.titolo-latitude{ 
+  background-color: #FFFFFF;
+color: #000000; 
+margin-top: 40px;
+ 
+  } 
+  .nomel{
+    width: 683px;
+   
+left: 507px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 25px;
+font-weight: 400;
+line-height: 30.26px;
+text-align: left;
+
+    padding-top: 0px;
+  }
+  label { 
+    color: #000000;
+    padding: 3px; /* Espaçamento interno */
+    font-family: Inter;
+font-size: 25px;
+font-weight: 400;
+line-height: 30.26px;
+text-align: left;
+
+    width: 683px;
+height: 30px;
+top: 779px;
+left: 507px;
+gap: 0px;
+opacity: 0px;
+ justify-items:center;
+    display: flex;
+    align-items: center;
+   /*  align-items: center; align-items:left;    espaçoentre superior no corpo */ 
+    display: block;  
+    margin-block: 3px; /*  espaço entre intens */ 
+    margin-bottom: 0px; /*  espaçoentre intens */ 
+   margin-top: -11px;
+    padding-left: 100px; /*  email e nome margen espaço inicial dos inten  */  
+    top: 336px;  
+    background-color: #FFFFFF;
+  
+  } 
+  input { 
+    padding: 3px; /* Espaçamento interno */
+    width: 630px;/*  (altura)*/ 
+    height: 56px; 
+    top: 829px; 
+    left: 499px; 
+   
+    
+
+    opacity: 0px; 
+    text-align:start; /* Centraliza o texto */ 
+    
+     
+    padding-left: 10px; /* inputs margen espaço inicial dos inten  */  
+    border: 0px solid #ccc;  
+    border-radius: 0px;  
+    background: rgba(242, 242, 242, 0.9); 
+     
+    border-radius: 10px 10px 10px 10px;/* aredonda os cantos do input */ 
+    opacity: 0px; 
+    /* Centraliza os itens verticalmente */ 
+    /* Habilita Flexbox para a div */ 
+     /* Centraliza os itens verticalmente */ 
+     margin-left: 60px; /* margen Adiciona de espaço à esquerda */ 
+     margin-block: -2px; /*  espaço entre intens */ 
+     margin-bottom: 22px; /*  espaçoentre intens */ 
+    margin-top: 20px;
+  } 
+   .botao{
+    width: 648px;
+height: 56px;
+top: 1435px;
+left: 491px;
+gap: 0px;
+border-radius: 10px 10px 10px 10px;
+opacity: 0px;
+
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 38.73px;
+color: #FFFFFF;
+background: #0C70F2E5;
+justify-items: center;
+text-align: center;
+margin-top: 120px;
+  margin-left: 59px;/* direciona margin  imagen 3 */
+   }
+   
+/* Resultado da busca por CEP: */ 
+/* busca resultado */ 
+ 
+.rtitoloresultado{ 
+    display: flex; /* Define o elemento como um container flex */ 
+      align-items: center; /* Alinha os itens verticalmente um do lado do outro */ 
+      width: 879px; 
+      height: 96px; 
+      top: 2028px; 
+      left: 327px; 
+      gap: 0px; 
+      opacity: 0px; 
+      font-family: 'Inter'; 
+      font-style: normal; 
+      font-weight: 800; 
+      font-size: 50px; 
+      line-height: 61px; 
+      width: 879px; 
+      height: 96px; 
+      top: 2028px; 
+      left: 327px; 
+      gap: 0px; 
+      opacity: 0px; 
+       
+      
+      color: rgba(31, 31, 31, 1); 
+   
+      border: 1px solid rgba(186, 186, 186, 1); 
+   
+   
+  /* Resultado da busca por CEP: */ 
+   
+  }
+/* CORPO  */ 
+.in{
+  
+  margin-top: 0px;/* ajusta o altura  imagen 3 */ 
+  margin-left: 20px;/* direciona margin  imagen 3 */
+}
+ /* busca resultado por cep */ 
+
+ .buscacep{ 
+  display: flex;
+  flex-direction:row; 
+  justify-items: normal; 
+  font-family: Inter; 
+  font-size: 50px; 
+  font-weight: 800; 
+  line-height: 60.51px; 
+  text-align: left; 
+  font-family: Inter; 
+font-size: 50px; 
+font-weight: 800; 
+line-height: 60.51px; 
+text-align: center; 
+ 
+  margin-top: 290px;/* ajusta o altura  imagen 3 */ 
+margin-left:  180px;/* ajusta o input resultado  imagen 3 */ 
+ 
+ } 
+/*  imagen 2 */ 
+.margen-imagen2{
+  margin-top: 479px;/* direciona margin  imagen 3 */ 
+   padding-left: 650px; 
+}
+.imagen2{ 
+ 
+    height: 133px; 
+    top: 1973px; 
+    left: 1070px; 
+    gap: 0px; 
+    opacity: 0px; 
+    margin-top: 0px;/* ajusta o altura  imagen 3 */ 
+  
+   padding-left: 0px; 
+  } 
+  /*  imagen 2 */ 
+   
+   
+   /* teste div novo contem imagen 2 */ 
+  
+
+
+.a{
+  width: 189px;
+
+top: 2147px;
+left: 653px;
+gap: 0px;
+opacity: 0px;
+
+  display: flex;
+  color: #FFFFFF;
+  font-family: Inter;
+font-size: 20px;
+font-weight: 800;
+line-height: 24.2px;
+background: #0C70F2;
+margin-right: 35px;
+margin-left: 100px;
+justify-content: center;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.azul{
+  display: flex;
+  background: #0C70F2;
+  width: 1024px;
+height: 80px;
+top: 2124px;
+left: 302px;
+gap: 0px;
+
+  border-radius: 30px 30px 0px 0px;
+  opacity: 0px;
+ display: flex;
+margin-top: 0px;/* direciona altura  imagen 3 */ 
+margin-left: 200px; /* Adiciona um espaçamento entre o título e a imagem */ 
+/* Estilos da seção azul */
+}
+.bairro {
+  display: flex;
+  display: inline-block; /* Permite controlar o espaçamento */
+  margin-left: 150px; /* Define a margem esquerda */
+  margin-right: 5px; /* Define a margem direita */
+  word-break: break-word; /* Permite que o nome do bairro quebre a linha */
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  
+}
+.localidade{
+  display: inline-block; /* Permite controlar o espaçamento */
+  
+  background: #FFFFFF;
+  margin-left: 180px; /* Define a margem esquerda */
+}
+.uf{
+  background: #FFFFFF;
+ 
+  display: inline-block; /* Permite controlar o espaçamento */
+  margin-left: 1px; /* Define a margem esquerda */
+  
+  word-break: break-word; /* Permite que o nome do bairro quebre a linha */
+}
+.nomeRua{
+  display: inline-block; /* Permite controlar o espaçamento */
+  
+  background: #FFFFFF;
+  margin-right: -115px; /* Define a margem direita */
+  width: 189px;
+height: 26px;
+top: 2219px;
+left: 384px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 800;
+line-height: 24.2px;
+text-align: left;
+margin-left:100px; /* Define a margem esquerda */
+}
+
+.nome{
+  padding-left: 0px;
+  
+  background: #FFFFFF;
+
+ 
+}
+.rs{
+  display: block;
+  
+
+ 
+  font-family: Inter;
+font-size: 20px;
+font-weight: 800;
+line-height: 24.2px;
+
+
+word-break: break-word;  /* permite quebra de linha */
+  display: flex;
+  background: #FFFFFF;
+}
+.container{
+  background: #FFFFFF;
+  width: 1024px;
+  height: 80px;
+  top: 2124px;
+  left: 302px;
+
+opacity: 0px;
+
+  border-radius: 0px 0px 30px 30px;
+  opacity: 0px;
+
+  margin-left: 200px; /* Adiciona um espaçamento entre o título e a imagem */ 
+}
+.branca{
+  
+justify-items: center;
+
+ display: flex;
+width: 100%;
+
+border-radius: 30px 30px 0px 0px;
+opacity: 0px;
+
+  margin-top: 0px;/* direciona altura  imagen 3 */ 
+
+}
+/* IMAGEN 3 E TITOLO PREVISAO  */
+.titolo-previsao{
+  display: flex;
+  margin-top: 100px;/* direciona altura  imagen 3 */ 
+  margin-left: 200px; /* Adiciona um espaçamento entre o título e a imagem */ 
+
+}
+.previsao-t{
+  width: 879px;
+height: 96px;
+top: 2487px;
+left: 327px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 50px;
+font-weight: 800;
+line-height: 60.51px;
+text-align: left;
+color: #1F1F1F;
+
+  margin-top: 0px;/* direciona altura  imagen 3 */ 
+margin-left: 220px; /* Adiciona um espaçamento entre o título e a imagem */ 
+}
+.resultado{
+  display: flex;
+  margin-top: 0px;/* direciona altura  imagen 3 */ 
+margin-left: -220px; /* Adiciona um espaçamento entre o título e a imagem */ 
+}
+.imagen3{ 
+   
+  margin-left: 0px; /* Adiciona um espaçamento entre o título e a imagem */ 
+  width: 160px; 
+  height: 106px;/* tamanho imagen 3 */ 
+  top: 2454px;/* dece imagen 3 */ 
+  left: 1258px; 
+  gap: 0px; 
+  opacity: 0px; 
+margin-top: -40px;/* direciona altura  imagen 3 */ 
+margin-left: -140px;/* direciona margin  imagen 3 */ 
+  
+ } 
+ /* IMAGEN 3 E TITOLO PREVISAO  */
+ /* resultadoe  */ 
+ .pre-resultadopi{
+  display: flex;
+  margin-top: -60px;
+ }
+.pre-resultado{
+  display:flex;
+  display: block;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  background: #FFFFFF;
+  
+border-radius: 30px 30px 30px 30px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid #0C70F2;
+font-family: Inter;
+font-size: 20px;
+font-weight: 800;
+line-height: 24.2px;
+width: 1024px;
+height: 72px;
+top: 2601px;
+left: 312px;
+gap: 0px;
+
+
+margin-top: 0px;/* direciona altura  imagen 3 */ 
+margin-left: 200px;/* direciona margin  imagen 3 */ 
+}
+
+/* previsao */ 
+/* faixa final */ 
+.final{ 
+ justify-items: end; 
+ text-align: end; 
+ margin-left: 1100px; 
+ 
+  width: 532px;/* largura faixa final */ 
+ 
+height: 30px; 
+top: 2921px; 
+left: 1970px; 
+gap: 0px; 
+opacity: 0px; 
+font-family: Inter; 
+font-size: 25px; 
+font-weight: 600; 
+line-height: 30.26px; 
+text-align: center; 
+color: rgba(255, 255, 255, 1); 
+background: rgba(12, 112, 242, 1); 
+ 
+     
+ 
+} 
+.ffinal{ 
+  
+ position: absolute; 
+  bottom: 10px; 
+  right: 10px; 
+  text-align:end; 
+  background: rgba(12, 112, 242, 1); 
+  width: 1700px;/* largura faixa final */ 
+padding-left: 0%; 
+height: 94px; 
+top: 2889px; 
+left: -1px; 
+gap: 0px; 
+opacity: 0px; 
+ 
+ 
+}
